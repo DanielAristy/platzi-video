@@ -66,3 +66,31 @@ ul:hover {
   margin: 0;
   color: white;
 }
+
+/*Main*/
+.main {
+  height: 300px; /*Tamaño del area*/
+  text-align: center;
+  margin-top: 70px;
+}
+
+.main__title {
+  color: white;
+  font-size: 30px;
+}
+
+.input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  color: white;
+  border-radius: 25px;
+  height: 30px;
+  width: 70%;
+  padding: 0 20px; /*Separación a los lados dentro del input*/
+  font-size: 16px;
+  outline: none; /*Eliminar borde cuando se selecciona el input*/
+  font-family: "Mulish", sans-serif;
+}
+::placeholder {
+  color: white;
+}
