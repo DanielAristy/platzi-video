@@ -133,3 +133,9 @@ ul:hover {
   opacity: 1; /*Respecto al objeto que se posicione con el mouse
   reaccion poniendo mas intensidad a su color*/
 }
+
+.carousel-item__img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
